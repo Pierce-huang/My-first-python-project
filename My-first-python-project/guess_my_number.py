@@ -11,21 +11,6 @@ to input a number until he/she gets it
 SECRET = 32
 
 
-"""
-def main():
-    print('猜 0-99')
-    guess = int(input('請猜:'))
-    while guess != SECRET:
-        if guess > SECRET:
-            print('太高')
-            guess = int(input('請猜:'))
-        else:
-            print('太低')
-            guess = int(input('請猜:'))
-    print('恭喜!答案:'+ str(SECRET))
-    """
-
-
 def main():
     print('猜 0-99')
     while True:
