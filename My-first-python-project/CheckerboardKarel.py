@@ -24,7 +24,6 @@ def main():
 #8*1
     if not front_is_clear():
         turn_left()
-        """put_beeper()"""
         while front_is_clear():
             put_beeper()
             if front_is_clear():
