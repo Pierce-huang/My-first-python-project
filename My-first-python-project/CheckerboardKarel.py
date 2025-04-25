@@ -12,10 +12,6 @@ from karel.stanfordkarel import *
 
 
 def main():
-    """
-    pre-condition:
-    post-condition:
-    """
     while front_is_clear():
         complete_one_street()
         move_to_next_street_1()
@@ -49,7 +45,6 @@ def move_to_next_street_1():
     """
     Karel is on the far right, he will move up one space to the next street, facing left.
     """
-    #if front_is_clear():
     if on_beeper():
         turn_left()
         if front_is_clear():
