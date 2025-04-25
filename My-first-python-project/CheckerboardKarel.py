@@ -11,9 +11,6 @@ sample worlds provided in the starter folder.
 from karel.stanfordkarel import *
 
 
-"""目前情況:可正常執行偶數邊長，但執行奇數邊長會改成對齊排列，必須先斜向上走一格才可開始。必須分辨奇數、偶數情形！！！"""
-
-
 def main():
     """
     pre-condition:
@@ -33,11 +30,7 @@ def main():
             if front_is_clear():
                 move()
                 if front_is_clear():
-                    move()
-                    """for i in range(3):
-                        if not front_is_clear():
-                            turn_left()
-                    put_beeper()"""
+                    move()                
 
 
 def complete_one_street():
